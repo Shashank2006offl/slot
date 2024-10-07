@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date:01-10-2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,9 +24,104 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title >Slot Time Table - SHASHANK R (23013949)</title>
+<style>
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
+th{
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+td {
+    text-align: LEFT;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+tr:nth-child(even) {
+  background-color: #7bf1f5;
+}
+th {
+    background-color: #f8a0d0;
+  }
+td:nth-child(1) {
+    background-color: #a5b6f1;
+}
+
+tr:nth-child(ODD) {
+    background-color: #25d1e1;
+  }
+</style>
+</head>
+<body>
+
+<h2 text-align="center">Slot Time Table -SHASHANK R (23013949)</h2>
+
+<table>
+  <tr>
+    <th>Day/Time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>8-10</td>
+    <td>COMPUTER ARCHITECTURE</td>
+    <td>SOFTWARE ENGINEERING</td>
+    <td>FREE SLOT</td>
+    <td>INTRO TO ML</td>
+    <td>FREE SLOT</td>
+  </tr>
+  <tr>
+    <td>10-12</td>
+    <td>FREE SLOT</td>
+    <td>OPERATING SYSTEM</td>
+    <td>FWAD</td>
+    <td>DATA SCIENCE</td>
+    <td>DATA SCIENCE</td>
+  </tr>
+  <tr>
+    <td>12-1</td>
+    <td><b>L</b></td>
+    <td><b>U</b></td>
+    <td><b>N</b></td>
+    <td><b>C</b></td>
+    <td><b>H</b></td>
+    
+  </tr>
+  <tr>
+    <td>1-3</td>
+    <td>TNTRO TO ML</td>
+    <td>QA-1</td>
+    <td>WEB APPLICATION</td>
+    <td>OPERATING SYSTEM</td>
+    <td>FREE SLOT</td>
+  </tr>
+  <tr>
+    <td>3-5</td>
+    <td>WEB APPLICATION</td>
+    <td>ADVANCED C PROGRAM</td>
+    <td>COMPUTER ARCHITECTURE</td>
+    <td>SOFTWARE ENGINEERING</td>
+    <td>COMPUTER ARCHITECTURE</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
 ## OUTPUT
+![Screenshot (15)](https://github.com/user-attachments/assets/c3753c1d-87e5-4813-a8d0-ec13157c5534)
 
 
 ## RESULT
