@@ -121,7 +121,7 @@ tr:nth-child(ODD) {
 </html>
 ```
 ## OUTPUT
-![Screenshot (15)](https://github.com/user-attachments/assets/c3753c1d-87e5-4813-a8d0-ec13157c5534)
+![image](https://github.com/user-attachments/assets/2b6ec5db-4a04-4035-b05c-0329b8882f2f)
 
 
 ## RESULT
