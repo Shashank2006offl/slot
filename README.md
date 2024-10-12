@@ -30,7 +30,6 @@ Execute the program using runserver command.
 <head>
 <title >Slot Time Table - SHASHANK R (23013949)</title>
 <style>
-
 table {
   border-collapse: collapse;
   width: 100%;
@@ -116,6 +115,53 @@ tr:nth-child(ODD) {
     <td>COMPUTER ARCHITECTURE</td>
   </tr>
 </table>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subject List</title>
+</head>
+<body>
+<table>
+<tr>
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>19A1414</td>
+<td>Fundamentals of Web Application Development (FWAD)</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>19CS305</td>
+<td>Computer Architecture</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>19CS405</td>
+<td>Operating System<td>
+</tr>
+<tr>
+<td>4.</td>
+<td>19CS408</td>
+<td>Software Engineering</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>19EY710</td>
+<td>QA-1</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>19AI210</td>
+<td>INTRO TO ML</td>
+</tr>
+</table>
+</body>
+</html>
+
 
 </body>
 </html>
